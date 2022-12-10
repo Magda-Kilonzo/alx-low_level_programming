@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Desription: Use `putchar` function to print the alphabet in lowecase
- * REturn: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -13,7 +13,6 @@ int main(void)
 	{
 		putchar(alpha);
 		alpha++;
-
 	}
 	putchar('\n');
 
