@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - rints the alhabet in lowercase
+ * main - prints the alhabet in lowercase
  *
  * REturn: Always 0
  */
