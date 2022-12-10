@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the alhabet in lowercase
+ * main - main block
+ * Desription: Use `putchar` function to print the alphabet in lowecase
  *
  * REturn: Always 0
  */
