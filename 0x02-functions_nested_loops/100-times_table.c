@@ -6,7 +6,7 @@
  *
  * Return; void
  */
-void print_times_tabe(int n)
+void print_times_table(int n)
 {
 	int i;
 	int j;
