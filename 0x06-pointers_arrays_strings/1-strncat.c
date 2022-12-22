@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - C function that copies a string including the
+ * _strncat - C function that copies a string including the
  * terminating null byte, using at mst an inputted number of bytes
  * When the length of source is less than maximum byte number,
  * the remainder of the destination string if filled will null bytes
@@ -12,7 +12,7 @@
  * Returns: returns
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 
