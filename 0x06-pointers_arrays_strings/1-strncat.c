@@ -1,26 +1,30 @@
 #include "main.h"
 
 /**
- * _strncat - C function that copies a string including the
- * terminating null byte, using at mst an inputted number of bytes
- * When the length of source is less than maximum byte number,
- * the remainder of the destination string if filled will null bytes
- * Works identically to the standard library function
- * @dest: buffer storing the string copy
- * @src: source string
- * @n: max number of byte coied
- * Returns: returns
+ * _strncat - Cancatenates two strings
+ * @dest: destination value
+ * @src: source value
+ * @n: limit of the concatenation
+ * Return: a pointer to the resulting string dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i;
+	int dlen = 0, j = 0;
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
-		dest[i] = src[i];
+	while (dest[dlen])
+	{
+		dlen++;
+	}
 
-	for ( ; i < n; i++)
-		dest[i] = '\0';
+	while (j < n && src[j])
+	{
+		dest[dlen] = src[j];
+		dlen++;
+		j++;
+	}
+
+	dest[dlen + n + 1] = '\0';
 
 	return (dest);
 }
