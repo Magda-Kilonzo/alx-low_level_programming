@@ -4,7 +4,7 @@
 /**
  * reverse_array - reverses the content of an array of integers
  * @a: array of integers
- * @n; number of eements to swap
+ * @n: number of eements to swap
  *
  * Return: empty
  */
