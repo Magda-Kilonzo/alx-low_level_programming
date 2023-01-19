@@ -6,7 +6,7 @@
  * of an array
  * @size: size of the array
  * @action: pointer to the function we need to use
- * @array: array to ass
+ * @array: array to pass
  *
  */
 
