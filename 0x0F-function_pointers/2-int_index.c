@@ -21,7 +21,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	}
 	for (c = 0; c < size; c++)
 	{
-		if ((*cm) (array[c]))
+		if ((*cmp) (array[c]))
 		{
 			return (c);
 		}
