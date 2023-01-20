@@ -5,7 +5,7 @@
 /**
  * sum_them_all - Entry Point
  * @n: variadic inputs
- * Return; sum
+ * Return: sum
  */
 
 int sum_them_all(const unsigned int n, ...)
